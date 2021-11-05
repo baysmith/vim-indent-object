@@ -1,14 +1,5 @@
 ## vim-indent-object
 
-<!-- vim-markdown-toc GFM -->
-
-- [Intro](#intro)
-- [Install](#install)
-- [Usage](#usage)
-- [FeedBack](#feedback)
-
-<!-- vim-markdown-toc -->
-
 ### Intro
 
 Vim text objects provide a convenient way to select and operate on various
@@ -25,7 +16,12 @@ structure can be quickly selected, for example.
 - vim-plug
 
 ```vim
-Plug 'michaeljsmith/vim-indent-object'
+Plug 'baysmith/vim-indent-object'
+```
+
+- Packer
+```vim
+use 'baysmith/vim-indent-object'
 ```
 
 ### Usage
@@ -50,13 +46,8 @@ In visual mode the mapping can be repeated, which has the effect of
 iteratively increasing the scope of indentation block selected. Specifying a
 count can be used to achieve the same effect.
 
-### FeedBack
+### Acknowledgements
 
-vim-indent-object was written by Michael Smith <msmith@msmith.id.au>. The
-project repository is kept at:
-
+vim-indent-object was originally written by Michael Smith <msmith@msmith.id.au>,
 http://github.com/michaeljsmith/vim-indent-object
 
-Any feedback or criticism is welcome, and can be mailed to the author at the
-above email address. Alternatively issues can be raised on the project
-website.
